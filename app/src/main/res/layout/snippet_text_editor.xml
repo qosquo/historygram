@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/button_bold"
+        android:src="@drawable/ic_format_bold_24"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+    <ImageButton
+        android:id="@+id/button_italic"
+        android:src="@drawable/ic_format_italic_24"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+    <ImageButton
+        android:id="@+id/button_underline"
+        android:src="@drawable/ic_format_underlined_24"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+    <ImageButton
+        android:id="@+id/button_align_left"
+        android:src="@drawable/ic_format_align_left_24"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+    <ImageButton
+        android:id="@+id/button_align_center"
+        android:src="@drawable/ic_format_align_center_24"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+    <ImageButton
+        android:id="@+id/button_align_right"
+        android:src="@drawable/ic_format_align_right_24"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+</LinearLayout>

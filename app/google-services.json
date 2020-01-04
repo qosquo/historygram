@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1074116199897",
+    "firebase_url": "https://historygram-proj.firebaseio.com",
+    "project_id": "historygram-proj",
+    "storage_bucket": "historygram-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074116199897:android:ac38916e9d29f1636e05c8",
+        "android_client_info": {
+          "package_name": "com.qosquo.historygram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074116199897-13io76lltqu6diebeqsbkor6dski6p2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVVp5SnTCkyI5Tp4F1YgKJIZVMVuARK8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074116199897-13io76lltqu6diebeqsbkor6dski6p2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

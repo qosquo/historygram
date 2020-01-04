@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="media_popup_noarticle">
+        <item>@string/edit</item>
+        <item>@string/media_menu_addarticle</item>
+        <item>@string/media_menu_delete</item>
+    </string-array>
+    
+    <string-array name="media_popup_hasarticle">
+        <item>@string/edit</item>
+        <item>@string/media_menu_removearticle</item>
+        <item>@string/media_menu_delete</item>
+    </string-array>
+
+    <string-array name="media_popup_unsubscribed">
+        <item>@string/media_menu_follow</item>
+    </string-array>
+
+    <string-array name="media_popup_subscribed">
+        <item>@string/media_menu_unfollow</item>
+    </string-array>
+
+    <string-array name="media_sort_array">
+        <item>@string/media_sort_by_id</item>
+        <item>@string/media_sort_by_date_oldest</item>
+        <item>@string/media_sort_by_date_newest</item>
+    </string-array>
+
+    <string-array name="collection_array">
+        <item>@string/collection_rename</item>
+        <item>@string/media_menu_delete</item>
+    </string-array>
+
+</resources>

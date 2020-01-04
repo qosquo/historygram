@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".CreateArticleActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:title="@string/blank"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:hint="@string/article_name"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="textMultiLine|text" />
+
+    <EditText
+        android:id="@+id/editText_article"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:hint="@string/article_body"
+        android:inputType="textMultiLine|text" />
+
+    <include android:layout_weight="0.08" layout="@layout/snippet_text_editor"
+        android:layout_height="0dp"
+        android:layout_width="match_parent" />
+
+</LinearLayout>

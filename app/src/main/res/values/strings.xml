@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Historygram</string>
+    <string name="title_edit_media">Edit media</string>
+    <string name="title_new_post">New post</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_user">User</string>
+    <string name="title_new_collection">New collection</string>
+
+    <string name="media_likes">Likes</string>
+    <string name="media_sort_by">Sort by</string>
+    <string name="media_sort_by_id">Newest</string>
+    <string name="media_sort_by_date_oldest">Date (oldest)</string>
+    <string name="media_sort_by_date_newest">Date (newest)</string>
+
+    <string name="user_username">Username</string>
+    <string name="user_name">Name</string>
+    <string name="user_biography">Biography</string>
+    <string name="user_media">Media</string>
+    <string name="user_followers">Followers</string>
+    <string name="user_follows">Follows</string>
+
+    <string name="edit">Edit</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="explore">Explore</string>
+    <string name="follow">Follow</string>
+    <string name="following">Following</string>
+    <string name="posts">Posts</string>
+    <string name="gallery">Select image</string>
+
+    <string name="collections">Collections</string>
+    <string name="collections_all_posts">All Posts</string>
+    <string name="collection_rename">Rename</string>
+    <string name="action_create_collection">Create collection</string>
+    <string name="name">Name</string>
+    <string name="save_to_collection">Save to</string>
+
+    <string name="search_hint">Search</string>
+    <string name="add_caption">Add caption</string>
+    <string name="ce">CE</string>
+    <string name="date">Date</string>
+
+    <string name="article">Article</string>
+    <string name="read_article">Read article</string>
+    <string name="create_article">Create article</string>
+    <string name="article_name">Article heading</string>
+    <string name="article_body">Article body</string>
+    <string name="article_views">Views</string>
+
+    <string name="media_menu_edit">Edit</string>
+    <string name="media_menu_addarticle">Add article</string>
+    <string name="media_menu_removearticle">Remove article</string>
+    <string name="media_menu_delete">Delete</string>
+    <string name="media_menu_follow">Follow</string>
+    <string name="media_menu_unfollow">Unfollow</string>
+
+    <string name="message_delete_article">Are you sure you want to delete article?</string>
+    <string name="message_delete_media">Are you sure you want to delete this post?</string>
+    <string name="message_delete_collection">Are you sure you want to delete this collection?</string>
+    <string name="message_yes">Yes</string>
+    <string name="message_no">No</string>
+
+    <string name="read_more">more</string>
+    <string name="hashtag_top">Top</string>
+    <string name="hashtag_recent">Recent</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="blank" translatable="false" />
+
+    <string name="menu_refresh">Refresh</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="logout">Logout</string>
+    <string name="change_profile_photo">Change profile photo</string>
+    <string name="action_publish">Publish</string>
+    <string name="action_next">Next</string>
+    <string name="action_done">Done</string>
+    <string name="choose_picture">Choose picture</string>
+</resources>
